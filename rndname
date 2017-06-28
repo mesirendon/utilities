@@ -1,6 +1,6 @@
 #!/bin/bash
 
-noun="$(shuf -n 1 nounlist)"
-adj="$(shuf -n 1 adjectivelist)"
+noun="$(shuf -n 1 ~/.bin/nounlist)"
+adj="$(shuf -n 1 ~/.bin/adjectivelist)"
 
 echo "$noun-$adj"
